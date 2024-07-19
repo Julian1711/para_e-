@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="../Videos/form.css">
+    <link rel="stylesheet" href="../formularioregistro_arreglado/form.css">
 </head>
 <body>
     <h1>Registro</h1>
@@ -29,7 +29,7 @@
             </select>
 
             <label for="num-doc">Numero de documento</label>
-            <input type="number" maxlength="10" id="num-doc" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  required>
+            <input type="text" maxlength="20" id="num-doc" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  required>
 
             <label for="tipo-sangre">Tipo de sangre</label>
             <select required name="" id="tipo-sangre">
